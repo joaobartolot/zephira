@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/state_machine/states/idle.gd" id="1_f6tex"]
+
+[node name="idle" type="Node" node_paths=PackedStringArray("walking_state", "attack_state")]
+script = ExtResource("1_f6tex")
+walking_state = NodePath("")
+attack_state = NodePath("")
+animation_name = "idle"

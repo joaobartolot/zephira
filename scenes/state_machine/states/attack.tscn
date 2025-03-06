@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/state_machine/states/attack.gd" id="1_ovin8"]
+
+[node name="attack" type="Node" node_paths=PackedStringArray("idle_state")]
+script = ExtResource("1_ovin8")
+idle_state = NodePath("")
+animation_name = "attack"

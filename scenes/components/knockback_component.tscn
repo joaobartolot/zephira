@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dfjyxuc6ehapy"]
+
+[ext_resource type="Script" path="res://scripts/components/knockback_component.gd" id="1_ukgf7"]
+
+[node name="KnockbackComponent" type="Node" node_paths=PackedStringArray("owner_node")]
+script = ExtResource("1_ukgf7")
+owner_node = NodePath("")

@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://dfbo0t2yxjdnw"]
+
+[ext_resource type="Script" path="res://scripts/state_machine/states/hurt.gd" id="1_v2po2"]
+
+[node name="hurt" type="Node" node_paths=PackedStringArray("idle_state", "move_state", "die_state")]
+script = ExtResource("1_v2po2")
+idle_state = NodePath("")
+move_state = NodePath("")
+die_state = NodePath("")

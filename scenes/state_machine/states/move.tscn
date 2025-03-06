@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/state_machine/states/move.gd" id="1_rpqga"]
+
+[node name="move" type="Node" node_paths=PackedStringArray("idle_state", "attack_state")]
+script = ExtResource("1_rpqga")
+idle_state = NodePath("")
+attack_state = NodePath("")
+animation_name = "walk"
